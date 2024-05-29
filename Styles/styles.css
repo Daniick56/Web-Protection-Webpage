@@ -5,7 +5,8 @@ body{
 }
 
 header {
-    height: 638px;
+    width: 100vw;
+    height: 640px;
     background-image: url('../Assets/images/banner-bk.jpg');
     background-size: cover;
     background-position: center;
@@ -89,14 +90,15 @@ header {
 
 /* contenido 1 de 2 del degradado:  */
 .contenido1-degradado{
-    padding-top: 60px;
+    padding: 40px 128px;
 }
 /* contenedor del titulo:  */
 .contenido1-title{
     text-align: center;
-    font-size: 25px;
+    
 }
 .contenido1-title h2{
+    font-size: 55px;
     color: #292B2C;
 }
 
@@ -113,7 +115,7 @@ header {
 .protection-image1 img,
 .protection-image2 img,
 .protection-image3 img{
-    width: 150px;
+    width: 170px;
 }
 /* color de los titulos:  */
 .protection-image1 h2,
@@ -121,3 +123,91 @@ header {
 .protection-image3 h2{
     color: #292B2C;
 }
+/* color de los parrafos:  */
+.protection-image1 p,
+.protection-image2 p,
+.protection-image3 p{
+    color: #292B2C;
+}
+/* alineamiento de los textos dentro de los 3 divs:  */
+.protection-image1,
+.protection-image2,
+.protection-image3{
+    text-align: center;
+    padding: 20px;
+}
+
+    /* END.SECOND CONTENT TITLE WITH THREE IMAGES:  */
+
+
+    /* START.TAKE A LOOK INSIDE WITH:  */
+
+    /* contenido 2 del degradado:  */
+
+/* contenido 2 degradado PADRE:      */
+    .contenido2-degradado{
+        padding: 20px 128px 70px 128px;
+        display: flex;
+        flex-direction: column;
+        gap: 150px;
+    }
+
+/* contenedor ppal de los textos e imagen:  */
+.take-a-look-padre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    /* contenedor del texto y boton:  */
+.take-a-look-container{
+    width: 50%;
+    height: 100%;
+}
+
+/* cambiando el color de los textos:  */
+.take-a-look-container h1,
+.take-a-look-container p{
+    color: #192440;
+}
+
+/* cambiando el tamaño de el titulo:  */
+.take-a-look-container h1{
+    font-size: 55px;
+    margin-bottom: 5px;
+}
+/* cambiando el tamaño de el parrafo:  */
+.take-a-look-container p{
+    font-size: 15px;
+}
+
+
+/* contenedor del botón:  */
+.take-a-look-button button{
+    width: 150px;
+    height: 50px;
+    background-color: #192440;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+.take-a-look-button button:hover{
+    transform: scale(1.05);
+}
+
+    /* contenedor de la imagen:  */
+.portatil-image-container img{
+    width: 500px;
+}
+
+
+    /* CAMBIANDO COLORES DEL BACKGROUND:  */
+
+    .CONTENIDO-DEGRADADO-PPAL{
+        background: linear-gradient(-190deg, #ffffff 60%, #00FFAD 50%);
+    }
