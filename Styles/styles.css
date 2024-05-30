@@ -453,7 +453,18 @@ header {
 
 
     /* FOOTER:  */
-.LAST-SECTION{
+footer{
     height: 120px;
     background-color: #192440;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px 0 150px;
+}
+.footer-1 p{
+    color: #fff;
+}
+
+.footer-2 img{
+    width: 200px;
 }
