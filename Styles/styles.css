@@ -211,3 +211,249 @@ header {
     .CONTENIDO-DEGRADADO-PPAL{
         background: linear-gradient(-190deg, #ffffff 60%, #00FFAD 50%);
     }
+
+    /* END.TAKE A LOOK INSIDE WITH:  */
+
+
+    /* START. PRICING CONTENIDO:  */
+
+    /* contenedor padre:  */
+    /* .PRICING-PRINCIPAL{
+    } */
+
+/* contenedor titulo:      */
+.pricing-title{
+    padding: 40px 0 20px 0;
+    text-align: center;
+    
+}
+.pricing-title h2{
+    font-size: 45px;
+    color: #292B2C;
+}
+
+/* contenedor padre de la trilogia pricing:  */
+.flex-container-trilogy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 110px;
+}
+
+/* contenedor 1 trilogia:  */
+.container-pricing-1{
+    width: 380px;
+    height: 480px;
+}
+
+/* contenedor 2 trilogia:  */
+.container-pricing-2{
+    width: 380px;
+    height: 480px;
+    background-color: #192440;
+}
+.container-pricing-2 h2,
+.container-pricing-2 p{
+    color: #fff;
+}
+
+/* contenedor 3 trilogia:  */
+.container-pricing-3{
+    width: 380px;
+    height: 480px;
+}
+
+/* llamado a los 4 contenedores:  */
+.container-pricing-1,
+.container-pricing-2,
+.container-pricing-3{
+    text-align: center;
+    border-radius: 4px;
+}
+
+/* span para los numeros mas grandes:  */
+.text-higher{
+    font-size: 100px;
+}
+
+/* configuracion titulos:  */
+.titles{
+    margin-top: 50px;
+}
+
+    /* estilos de los botones:  */
+
+/* contenedor del botón AZUL:  */
+.button-pricing-BLUE button{
+    width: 120px;
+    height: 50px;
+    background-color: #00FFAD;
+    font-size: 15px;
+    color: #192440;
+    margin-top: 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+}
+.button-pricing-BLUE button:hover{
+    transform: scale(1.05);
+}
+
+/* contenedor de los botones blancos:  */
+.button-pricing button{
+    width: 120px;
+    height: 50px;
+    background-color: #fff;
+    font-size: 15px;
+    color: #192440;
+    margin-top: 20px;
+    border: solid 2px #192440;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+}
+.button-pricing button:hover{
+    transform: scale(1.05);
+}
+
+    /* END.PRICING CONTENIDO */
+
+
+    /* START.IMAGES LOGOS CONTENIDO:  */
+
+    /* contenedor-ppal:  */
+    .LOGO-BRANDS{
+        height: 220px;
+        background-color: #ECEEEF;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+/* contenedor imagenes:  */
+.images-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 6.5vw;
+}
+.images-container img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+    /* END.IMAGES LOGOS CONTENIDO:  */
+
+
+    /* START. FORMULACION CON IMAGEN DE FONDO:  */
+
+    /* contenedor ppal:  */
+    .FORM-PADRE{
+        background-image: url('../Assets/images/contact-bk.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 704px;
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+    }
+
+/* contenedor del texto:  */
+.form-texto{
+    width: 40%;
+    padding: 140px 100px 0 140px;
+}
+.form-texto h2,
+.form-texto p{
+    color: #fff;
+}
+.form-texto h2{
+    font-size: 45px;
+}
+.form-texto p{
+    font-size: 16px;
+    margin: 10px 0px;
+}
+#p-form{
+    margin-bottom: 40px;
+}
+
+
+/* contenedor del form:  */
+.form-form{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 20px 20px 0px;
+    margin-bottom: 30px;
+}
+
+/* contenedor de los dos inputs en row:  */
+.input-row{
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    margin-bottom: 30px;
+}
+
+.row1 input,
+.row2 input{
+    width: 258px;
+    height: 36px;
+}
+
+/* contenedor de el mensaje:  */
+.message textarea{
+    width: 550px;
+    height: 75px;
+}
+
+/* cambiando el color de los label  */
+.row1 label,
+.row2 label,
+.message label{
+    color: #00FFAD;
+    font-size: 15px;
+}
+/* cambiando el espacio y tamaño:  */
+.row1 input,
+.row2 input,
+.message textarea{
+    margin-top: 15px;
+    background: transparent;
+    border: 1px solid #00FFAD;
+    border-radius: 4px;
+    color: #fff;
+}
+
+
+
+    /* dandole estilo a los botones:  */
+.button-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.button-container button{
+    width: 550px;
+    height: 50px;
+    background-color: #00FFAD;
+    font-size: 16px;
+    color: #192440;
+    margin-top: 20px;
+    border: none;
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+}
+.button-container button:hover{
+    transform: scale(1.02);
+}
+
+
+    /* FOOTER:  */
+.LAST-SECTION{
+    height: 120px;
+    background-color: #192440;
+}
