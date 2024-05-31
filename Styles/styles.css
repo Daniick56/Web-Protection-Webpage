@@ -550,3 +550,14 @@ footer{
     transform: scale(1.05);
 }
 
+/* AÑADIENDO ESCALA AL FORM:  */
+.row1,
+.row2,
+.message{
+    transition: transform 0.3s ease;
+}
+.row1:hover,
+.row2:hover,
+.message:hover{
+    transform: scale(1.02);
+}
