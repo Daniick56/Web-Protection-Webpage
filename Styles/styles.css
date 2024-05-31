@@ -278,25 +278,35 @@ header {
 
 /* contenedor 1 trilogia:  */
 .container-pricing-1{
+    transition: transform 0.5s ease;
     width: 380px;
     height: 480px;
 }
 
 /* contenedor 2 trilogia:  */
 .container-pricing-2{
+    transition: transform 0.5s ease;
     width: 380px;
     height: 480px;
     background-color: #192440;
 }
-.container-pricing-2 h2,
-.container-pricing-2 p{
-    color: #fff;
-}
 
 /* contenedor 3 trilogia:  */
 .container-pricing-3{
+    transition: transform 0.5s ease;
     width: 380px;
     height: 480px;
+}
+/* transisciones de los divs>  */
+.container-pricing-1:hover,
+.container-pricing-2:hover,
+.container-pricing-3:hover{
+    transform: scale(1.03);
+}
+
+.container-pricing-2 h2,
+.container-pricing-2 p{
+    color: #fff;
 }
 
 /* llamado a los 4 contenedores:  */
@@ -330,10 +340,16 @@ header {
     border: none;
     font-weight: bold;
     border-radius: 25px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease,
+    color 0.3s ease,
+    border 0.3s ease,
+    background 0.3s ease;
 }
 .button-pricing-BLUE button:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
+    color: #00FFAD;
+    background: transparent;
+    border: 1px solid #00FFAD;
 }
 
 /* contenedor de los botones blancos:  */
@@ -347,10 +363,14 @@ header {
     border: solid 2px #192440;
     font-weight: bold;
     border-radius: 25px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease,
+    color 0.3s ease,
+    background-color 0.3s ease;
 }
 .button-pricing button:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
+    color: #fff;
+    background-color: #192440;
 }
 
     /* END.PRICING CONTENIDO */
@@ -522,4 +542,11 @@ footer{
 }
 .three-images-padre a:hover{
     transform: scale(1.05);
+}
+
+/* FEATURE/SCALE-PRICING-TRILOGY */
+.container-pricing-1:hover,
+.container-pricing-2:hover,
+.container-pricing-3:hover{
+
 }
