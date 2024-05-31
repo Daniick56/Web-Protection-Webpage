@@ -246,6 +246,7 @@ header {
 
     .CONTENIDO-DEGRADADO-PPAL{
         background: linear-gradient(-190deg, #ffffff 60%, #00FFAD 50%);
+        width: 100vw;
     }
 
     /* END.TAKE A LOOK INSIDE WITH:  */
@@ -254,8 +255,9 @@ header {
     /* START. PRICING CONTENIDO:  */
 
     /* contenedor padre:  */
-    /* .PRICING-PRINCIPAL{
-    } */
+    .PRICING-PRINCIPAL{
+        width: 100vw;
+    }
 
 /* contenedor titulo:      */
 .pricing-title{
@@ -380,6 +382,7 @@ header {
 
     /* contenedor-ppal:  */
     .LOGO-BRANDS{
+        width: 100vw;
         height: 220px;
         background-color: #ECEEEF;
         display: flex;
@@ -409,6 +412,7 @@ header {
         background-image: url('../Assets/images/contact-bk.jpg');
         background-size: cover;
         background-position: center;
+        width: 100vw;
         height: 704px;
         display: flex;
         flex-direction: row;
@@ -518,18 +522,20 @@ header {
     /* FOOTER:  */
 footer{
     height: 120px;
+    width: 100vw;
     background-color: #192440;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 150px 0 150px;
 }
 .footer-1 p{
     color: #fff;
+    margin-left: 150px;
 }
 
 .footer-2 img{
     width: 200px;
+    margin-right: 180px;
 }
 
 
