@@ -444,6 +444,7 @@ header {
     color: #192440;
     margin-top: 20px;
     border: none;
+    font-weight: bold;
     border-radius: 25px;
     transition: transform 0.3s ease;
 }
@@ -467,4 +468,16 @@ footer{
 
 .footer-2 img{
     width: 200px;
+}
+
+
+    /* FINALIZACION MAQUETACION. */
+
+/* FEATURE/SCALE-TRILOGY  */
+.three-images-padre a{
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.three-images-padre a:hover{
+    transform: scale(1.05);
 }
