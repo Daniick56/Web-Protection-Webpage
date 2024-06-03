@@ -34,7 +34,12 @@ header {
 /* contenedor del texto/link:  */
 .get-early-access-container{
     margin-right: 128px;
+    transition: transform 0.3s ease;
 }
+.get-early-access-container:hover{
+    transform: scale(1.05);
+}
+
 .get-early-access-container a{
     font-size: 23px;
     transition: color 0.3s ease;
