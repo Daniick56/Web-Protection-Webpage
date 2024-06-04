@@ -101,7 +101,7 @@ header {
 
 /* contenido 1 de 2 del degradado:  */
 .contenido1-degradado{
-    padding: 40px 128px;
+    padding: 40px 200px;
 }
 /* contenedor del titulo:  */
 .contenido1-title{
@@ -145,7 +145,7 @@ header {
 .protection-image2,
 .protection-image3{
     text-align: center;
-    padding: 20px;
+    padding: 40px 80px 40px 80px;
 }
 
     /* END.SECOND CONTENT TITLE WITH THREE IMAGES:  */
@@ -157,7 +157,7 @@ header {
 
 /* contenido 2 degradado PADRE:      */
     .contenido2-degradado{
-        padding: 20px 128px 70px 128px;
+        padding: 80px 128px 70px 128px;
         display: flex;
         flex-direction: column;
         gap: 150px;
@@ -167,12 +167,12 @@ header {
 .take-a-look-padre{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
     /* contenedor del texto y boton:  */
 .take-a-look-container{
-    width: 50%;
+    width: 34%;
     height: 100%;
 }
 
@@ -266,7 +266,7 @@ header {
 
 /* contenedor titulo:      */
 .pricing-title{
-    padding: 40px 0 20px 0;
+    padding: 80px 0 20px 0;
     text-align: center;
     
 }
@@ -286,23 +286,23 @@ header {
 /* contenedor 1 trilogia:  */
 .container-pricing-1{
     transition: transform 0.5s ease;
-    width: 380px;
-    height: 480px;
+    width: 450px;
+    height: 580px;
 }
 
 /* contenedor 2 trilogia:  */
 .container-pricing-2{
     transition: transform 0.5s ease;
-    width: 380px;
-    height: 480px;
+    width: 450px;
+    height: 580px;
     background-color: #192440;
 }
 
 /* contenedor 3 trilogia:  */
 .container-pricing-3{
     transition: transform 0.5s ease;
-    width: 380px;
-    height: 480px;
+    width: 450px;
+    height: 580px;
 }
 /* transisciones de los divs>  */
 .container-pricing-1:hover,
@@ -331,7 +331,17 @@ header {
 
 /* configuracion titulos:  */
 .titles{
-    margin-top: 50px;
+    margin-top: 60px;
+}
+
+/* configuracion de los margenes de los textos:  */
+.container-pricing-1 p,
+.container-pricing-2 p,
+.container-pricing-3 p{
+    margin: 24px 0;
+}
+.subtitles{
+    margin: 34px 0;
 }
 
     /* estilos de los botones:  */
