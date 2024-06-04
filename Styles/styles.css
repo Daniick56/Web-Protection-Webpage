@@ -400,7 +400,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 6.5vw;
+    gap: 9vw;
 }
 .images-container img{
     max-width: 100%;
@@ -420,13 +420,13 @@ header {
         width: 100vw;
         height: 704px;
         display: flex;
+        justify-content: space-between;
         flex-direction: row;
         gap: 100px;
     }
 
 /* contenedor del texto:  */
 .form-texto{
-    width: 40%;
     padding: 140px 100px 0 140px;
 }
 .form-texto h2,
@@ -447,11 +447,10 @@ header {
 
 /* contenedor del form:  */
 .form-form{
-    width: 60%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 0px 20px 20px 0px;
+    padding: 0px 140px 20px 0px;
     margin-bottom: 30px;
 }
 
@@ -540,7 +539,7 @@ footer{
 
 .footer-2 img{
     width: 200px;
-    margin-right: 180px;
+    margin-right: 150px;
 }
 
 
