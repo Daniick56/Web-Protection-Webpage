@@ -575,3 +575,62 @@ footer{
 .message:hover{
     transform: scale(1.02);
 }
+
+    /* INICIO.MEDIA QUERIES PARA PORTATIL */
+
+    @media screen and (max-width: 1279px){
+        body{
+            width: 1279px;
+            margin: 0%;
+            padding: 0%;
+        }
+        
+        header{
+            width: 140vw;
+        }
+        
+        .paragraph-container p{
+            font-size: 20px;
+        }
+        
+        
+        .get-started-button button{
+            font-size: 20px;
+        }
+        
+        .CONTENIDO-DEGRADADO-PPAL{
+            background: linear-gradient(-193deg, #ffffff 60%, #00FFAD 50%);
+            width: 140vw;
+        }
+        
+        .PRICING-PRINCIPAL{
+            width: 140vw;
+        }
+        
+        .LOGO-BRANDS{
+            width: 140vw;
+            gap: 2px;
+        }
+        .LOGO-BRANDS img{
+            height: 30%;
+            width: auto;
+            justify-content: space-between;
+            gap: 0%
+        }
+        .images-container{
+            gap: 6%;
+            margin-right: 20%;
+        }
+        .FORM-PADRE{
+            width: 140vw;
+        }
+        
+        footer{
+            width: 140vw;
+        }
+        
+        }
+
+        /* FIN.MEDIA QUERIES PARA PORTATIL.  */
+
+    
