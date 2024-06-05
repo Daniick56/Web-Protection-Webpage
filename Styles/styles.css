@@ -633,4 +633,56 @@ footer{
 
         /* FIN.MEDIA QUERIES PARA PORTATIL.  */
 
-    
+         /* INICIO.MEDIA QUERIES PARA TABLETS GRANDES:  */
+         @media  screen and (max-width: 920px) {
+            body{
+                width: 920px;
+                margin: 0%;
+                padding: 0%;
+            }
+
+            header{
+                width: 157vw;
+            }
+
+            .contenido1-degradado{
+                padding: 40px 150px 40px 150px;
+            }
+            .three-images-padre{
+                gap: 20px;
+            }
+
+            .protection-image1,
+            .protection-image2,
+            .protection-image3{
+                padding: 0%;
+            }
+
+            .form-texto{
+                padding-right: 0px;
+            }
+            .form-form{
+                padding-left: 40px;
+                padding-right: 120px;
+            }
+            
+            .CONTENIDO-DEGRADADO-PPAL{
+                width: 157vw;
+            }
+
+            .PRICING-PRINCIPAL{
+                width: 157vw;
+            }
+
+            .LOGO-BRANDS{
+                width: 157vw;
+            }
+
+            .FORM-PADRE{
+                width: 157vw;
+            }
+
+            footer{
+                width: 157vw;
+            }
+        }
