@@ -101,7 +101,7 @@ header {
 
 /* contenido 1 de 2 del degradado:  */
 .contenido1-degradado{
-    padding: 40px 200px;
+    padding: 40px 0px;
 }
 /* contenedor del titulo:  */
 .contenido1-title{
@@ -117,6 +117,7 @@ header {
 
 /* contenedor ppal:  */
 .three-images-padre{
+    width: 100vw;
     padding-top: 20px;
     display: flex;
     flex-direction: row;
@@ -145,7 +146,6 @@ header {
 .protection-image2,
 .protection-image3{
     text-align: center;
-    padding: 40px 80px 40px 80px;
 }
 
     /* END.SECOND CONTENT TITLE WITH THREE IMAGES:  */
@@ -401,16 +401,16 @@ header {
         height: 220px;
         background-color: #ECEEEF;
         display: flex;
-        justify-content: space-evenly;
         align-items: center;
     }
 
 /* contenedor imagenes:  */
 .images-container{
+    width: 100vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    gap: 9vw;
+    justify-content: center;
+    gap: 6vw;
 }
 .images-container img{
     max-width: 100%;
@@ -430,14 +430,15 @@ header {
         width: 100vw;
         height: 704px;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-direction: row;
-        gap: 100px;
+        gap: 2vw;
     }
 
 /* contenedor del texto:  */
 .form-texto{
-    padding: 140px 100px 0 140px;
+    padding: 130px  10vw 0 10vw;
+
 }
 .form-texto h2,
 .form-texto p{
@@ -452,6 +453,7 @@ header {
 }
 #p-form{
     margin-bottom: 40px;
+    padding-right: 30px;
 }
 
 
@@ -460,7 +462,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 0px 140px 20px 0px;
+    padding: 0px 8vw 20px 0px;
     margin-bottom: 30px;
 }
 
@@ -544,12 +546,12 @@ footer{
 }
 .footer-1 p{
     color: #fff;
-    margin-left: 150px;
+    margin-left: 10vw;
 }
 
 .footer-2 img{
     width: 200px;
-    margin-right: 150px;
+    margin-right: 10vw;
 }
 
 
@@ -579,14 +581,15 @@ footer{
     /* INICIO.MEDIA QUERIES PARA PORTATIL */
 
     @media screen and (max-width: 1279px){
+        
         body{
-            width: 1279px;
+            width: 100vw;
             margin: 0%;
             padding: 0%;
         }
         
         header{
-            width: 140vw;
+            width: 100vw;
         }
         
         .paragraph-container p{
@@ -600,16 +603,15 @@ footer{
         
         .CONTENIDO-DEGRADADO-PPAL{
             background: linear-gradient(-193deg, #ffffff 60%, #00FFAD 50%);
-            width: 140vw;
+            width: 100vw;
         }
         
         .PRICING-PRINCIPAL{
-            width: 140vw;
+            width: 100vw;
         }
         
         .LOGO-BRANDS{
-            width: 140vw;
-            gap: 2px;
+            width: 100vw;
         }
         .LOGO-BRANDS img{
             height: 30%;
@@ -618,16 +620,33 @@ footer{
             gap: 0%
         }
         .images-container{
-            gap: 6%;
-            margin-right: 20%;
+            gap: 1vw;
+            width: 100vw;
         }
         .FORM-PADRE{
-            width: 140vw;
+            width: 100vw;
+            gap: 2vw;
+            padding: 0;
+        }
+
+        .form-texto{
+            padding: 130px  5vw 0 10vw;
+        }
+        .form-form{
+            padding: 0;
+        }
+
+        form{
+            margin-right: 4vw;
+        }
+        #p-form{
+            padding: 0%;
         }
         
         footer{
-            width: 140vw;
+            width: 100vw;
         }
+    
         
         }
 
@@ -635,56 +654,107 @@ footer{
 
          /* INICIO.MEDIA QUERIES PARA TABLETS GRANDES:  */
          @media  screen and (max-width: 920px) {
-            body{
-                width: 920px;
-                margin: 0%;
-                padding: 0%;
-            }
-
-            header{
-                width: 157vw;
-            }
-
-            .contenido1-degradado{
-                padding: 40px 150px 40px 150px;
-            }
-            .three-images-padre{
-                gap: 20px;
-            }
-
-            .protection-image1,
-            .protection-image2,
-            .protection-image3{
-                padding: 0%;
-            }
-
-            .form-texto{
-                padding-right: 0px;
-            }
-            .form-form{
-                padding-left: 40px;
-                padding-right: 120px;
-            }
             
-            .CONTENIDO-DEGRADADO-PPAL{
-                width: 157vw;
-            }
+        .a-new-way-container{
+            font-size: 35px;
+            padding-left: 5vw;
+            height: 440px;
+        }
 
-            .PRICING-PRINCIPAL{
-                width: 157vw;
-            }
+        /* END.SECOND CONTENT TITLE WITH THREE IMAGES:  */
 
-            .LOGO-BRANDS{
-                width: 157vw;
-            }
+        /* START.TAKE A LOOK INSIDE WITH:  */
+        .contenido2-degradado{
+            padding: 50px 0px;
+            display: flex;
+            flex-direction: column;
+            gap: 100px;
+        }
 
-            .FORM-PADRE{
-                width: 157vw;
-            }
+        /* END.PRICING CONTENT */
 
-            footer{
-                width: 157vw;
-            }
+        /* START.IMAGES LOGOS CONTENT:  */
+        .LOGO-BRANDS{
+            width: 100vw;
+            height: 220px;
+            background-color: #ECEEEF;
+            display: flex;
+            align-items: center;
+        }
+        .images-container{
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 2vw;
+        }
+        .images-container img{
+            width: 120px;
+        }
+        hr{
+            border: none;
+            height: 2px;
+            background-color: #ECEEEF;
+            margin: 0;
+        }
+        
+        
+        .CONTENIDO-DEGRADADO-PPAL{
+            width: 100vw;
+        }
+
+        .PRICING-PRINCIPAL{
+            width: 100vw;
+        }
+
+        .LOGO-BRANDS{
+            width: 100vw;
+        }
+
+        .FORM-PADRE{
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            gap: 20px;
+        }
+
+        .take-a-look-container{
+            margin: 30px;
+        }
+
+        footer{
+            width: 100vw;
+        }
+
+        /* contenedor del texto:  */
+        .form-texto{
+            padding: 0vw 10vw;
+        }
+
+        .form-form{
+            padding: 6vw 10vw;
+        }
+
+        form{
+            margin: 0%;
+        }
+
+        .form-texto h2,
+        .form-texto p{
+            color: #fff;
+        }
+        .form-texto h2{
+            font-size: 45px;
+        }
+        .form-texto p{
+            font-size: 16px;
+            margin: 10px 0px;
+        }
+        #p-form{
+            margin-bottom: 0px;
+        }
+        
+
         }
 
         /* FIN.MEDIA QUERIES PARA TABLETS GRANDES: */
@@ -693,67 +763,90 @@ footer{
         /* INICIO.MEDIA QUERIES PARA LARGE SMARTPHONE:  */
 
         @media screen and (max-width: 768px) {
-            body{
-                width: 768px;
-                margin: 0%;
-                padding: 0%;
+            .a-new-way-container{
+                font-size: 35px;
+                padding-left: 5vw;
+                height: 440px;
             }
-
-            header{
-                width: 234vw;
+    
+            /* END.SECOND CONTENT TITLE WITH THREE IMAGES:  */
+    
+            /* START.TAKE A LOOK INSIDE WITH:  */
+            .contenido2-degradado{
+                padding: 50px 0px;
+                display: flex;
+                flex-direction: column;
+                gap: 100px;
             }
-
-            .contenido1-degradado{
-                padding: 40px 150px 40px 150px;
+    
+            /* END.PRICING CONTENT */
+    
+            /* START.IMAGES LOGOS CONTENT:  */
+            .LOGO-BRANDS{
+                width: 100vw;
+                height: 220px;
+                background-color: #ECEEEF;
+                display: flex;
+                align-items: center;
             }
-            .three-images-padre{
-                gap: 20px;
+            .images-container{
+                width: 100vw;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                gap: 2vw;
             }
-
-            .protection-image1,
-            .protection-image2,
-            .protection-image3{
-                padding: 0%;
+            .images-container img{
+                width: 120px;
             }
-
+            hr{
+                border: none;
+                height: 2px;
+                background-color: #ECEEEF;
+                margin: 0;
+            }
             
-            .form-texto{
-                padding-right: 0px;
-            }
-            .form-form{
-                
-                padding: 40px 120px 90px 300px;
-            }
             
             .CONTENIDO-DEGRADADO-PPAL{
-                width: 234vw;
+                width: 100vw;
             }
-
+    
             .PRICING-PRINCIPAL{
-                width: 234vw;
+                width: 100vw;
             }
-
+    
             .LOGO-BRANDS{
-                width: 234vw;
+                width: 100vw;
             }
-
+    
             .FORM-PADRE{
                 display: flex;
                 flex-direction: column;
-                width: 234vw;
+                width: 100vw;
                 gap: 20px;
             }
-
-            footer{
-                width: 234vw;
+    
+            .take-a-look-container{
+                margin: 30px;
             }
-
+    
+            footer{
+                width: 100vw;
+            }
+    
             /* contenedor del texto:  */
             .form-texto{
-                padding: 0px;
-                padding-right: 400px;
-                padding-left: 300px;
+                padding: 0vw 10vw;
             }
+    
+            .form-form{
+                padding: 6vw 10vw;
+            }
+    
+            form{
+                margin: 0%;
+            }
+    
             .form-texto h2,
             .form-texto p{
                 color: #fff;
@@ -769,4 +862,12 @@ footer{
                 margin-bottom: 0px;
             }
 
+        }
+        /* FIN.MEDIA QUERIES PARA LARGE SMARTPHONE:  */
+
+
+        /* INICIO. MEDIA QUERIES PARA SMARTPHONE:  */
+
+        @media screen and (max-width: 481px) {
+            
         }
