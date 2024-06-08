@@ -1030,6 +1030,266 @@ footer{
 
         /* INICIO. MEDIA QUERIES PARA SMARTPHONE:  */
 
-        @media screen and (max-width: 481px) {
+        @media screen and (max-width: 480px) {
+
+            .logo-container{
+                margin-left: 5vw;
+            }
+        
+            .get-early-access-container{
+                margin-right: 5vw;
+                transition: transform 0.3s ease;
+            }
+        
+            .first-content{
+                height: 80px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+            
+        
+            .a-new-way-container{
+                font-size: 30px;
+                padding-left: 5vw;
+                height: 400px;
+            }
+        
+            .a-new-way-container h1{
+                font-size: 50px;
+                width: 90vw;
+            }
+        
+            .paragraph-container{
+                width: 90vw;
+            }
+        
+            .paragraph-container p{
+                width: 90vw;
+            }
+        
+            .contenido1-title h2{
+                font-size: 35px;
+                margin-bottom: 1;
+            }
+        
+            /* div de las imagenes:  */
+        
+            /* contenedor ppal:  */
+            .three-images-padre{
+                width: 100vw;
+                padding-top: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+            .protection-image1,
+            .protection-image2,
+            .protection-image3{
+                padding: 0 5vw;
+            }
+        
+            /* size de las imagenes:  */
+            .protection-image1 img,
+            .protection-image2 img,
+            .protection-image3 img{
+                width: 180px;
+            }
+        
+            .protection-image1 p,
+            .protection-image2 p,
+            .protection-image3 p{
+                padding: 0 5px;
+                font-size: 18px;
+            }
+        
+            .protection-image1 h2,
+            .protection-image2 h2,
+            .protection-image3 h2{
+                padding: 0 5px;
+                font-size: 35px;
+                margin-top: 0px;
+            }
+        
+            /* START.TAKE A LOOK INSIDE WITH:  */
+        
+            /* contenido 2 del degradado:  */
+        
+            /* contenido 2 degradado PADRE:      */
+            .contenido2-degradado{
+                padding: 0px;
+                display: flex;
+                flex-direction: column;
+                gap: 100px;
+            }
+        
+            /* contenedor ppal de los textos e imagen:  */
+            .take-a-look-padre{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+        
+            /* contenedor del texto y boton:  */
+            .take-a-look-container{
+                width: 40%;
+                height: 100%;
+            }
+        
+            /* cambiando el color de los textos:  */
+            .take-a-look-container h1,
+            .take-a-look-container p{
+                color: #192440;
+            }
+        
+            /* cambiando el tamaño de el titulo:  */
+            .take-a-look-container h1{
+                font-size: 70px;
+                margin-bottom: 5px;
+            }
+            /* cambiando el tamaño de el parrafo:  */
+            .take-a-look-container p{
+                font-size: 14px;
+            }
+        
+            /* contenedor de la imagen:  */
+            .portatil-image-container img{
+                width: 300px;
+            }
+        
+            /* CAMBIANDO COLORES DEL BACKGROUND:  */
+        
+            .CONTENIDO-DEGRADADO-PPAL{
+                background: linear-gradient(-190deg, #ffffff 60%, #00FFAD 50%);
+                width: 100vw;
+            }
+        
+            /* END.TAKE A LOOK INSIDE WITH:  */
+
+            .container-pricing-1,
+            .container-pricing-2,
+            .container-pricing-3{
+                width: 100vw;
+            }
+        
+            /* END.PRICING CONTENT */
+        
+            /* contenedor padre de la trilogia pricing:  */
+            .flex-container-trilogy{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-bottom: 90px;
+            }
+        
+            /* START.IMAGES LOGOS CONTENT:  */
+            .LOGO-BRANDS{
+                width: 100vw;
+                height: 180px;
+                background-color: #ECEEEF;
+                display: flex;
+                align-items: center;
+            }
+            .images-container{
+                width: 100vw;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                gap: 3vw;
+            }
+            .images-container img{
+                width: 50px;
+            }
+            hr{
+                border: none;
+                height: 2px;
+                background-color: #ECEEEF;
+                margin: 0;
+            }
+        
+            .CONTENIDO-DEGRADADO-PPAL{
+                width: 100vw;
+            }
+        
+            .PRICING-PRINCIPAL{
+                width: 100vw;
+            }
+        
+            .LOGO-BRANDS{
+                width: 100vw;
+            }
+        
+            .FORM-PADRE{
+                display: flex;
+                flex-direction: column;
+                width: 100vw;
+                gap: 15px;
+            }
+        
+            .take-a-look-container{
+                margin: 20px;
+            }
+        
+            footer{
+                width: 100vw;
+            }
+        
+            /* contenedor del texto:  */
+            .form-texto{
+                padding: 0vw 5vw;
+            }
+        
+            .form-form{
+                padding-left: 5vw;
+            }
+        
+            form{
+                margin: 0%;
+            }
+        
+            .form-texto h2,
+            .form-texto p{
+                color: #fff;
+            }
+            .form-texto h2{
+                font-size: 40px;
+            }
+            .form-texto p{
+                font-size: 14px;
+                margin: 10px 0px;
+            }
+            #p-form{
+                margin-bottom: 0px;
+            }
+        
+            /* contenedor de los dos inputs en row:  */
+            .input-row{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 20px;
+            }
+        
+            .row1 input,
+            .row2 input{
+                width: 125px;
+                height: 32px;
+            }
+        
+            /* contenedor de el mensaje:  */
+            .message textarea{
+                width: 280px;
+                height: 70px;
+            }
+        
+            .button-container button{
+                width: 280px;
+            }
+            .footer-1 p{
+                font-size: 10px;
+            }
+            .footer-2 img{
+                width: 100px;
+            }
             
         }
