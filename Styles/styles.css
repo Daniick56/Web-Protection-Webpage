@@ -763,23 +763,156 @@ footer{
         /* INICIO.MEDIA QUERIES PARA LARGE SMARTPHONE:  */
 
         @media screen and (max-width: 768px) {
+
+            /* contenedor padre primer contenido:  */
+            /* contenedor del logo:  */
+            .logo-container{
+                margin-left: 10vw;
+
+            }
+
+            .get-early-access-container{
+                margin-right: 10vw;
+                transition: transform 0.3s ease;
+            }
+
+            .first-content{
+                height: 100px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+            
+
             .a-new-way-container{
                 font-size: 35px;
                 padding-left: 5vw;
                 height: 440px;
             }
-    
-            /* END.SECOND CONTENT TITLE WITH THREE IMAGES:  */
-    
-            /* START.TAKE A LOOK INSIDE WITH:  */
-            .contenido2-degradado{
-                padding: 50px 0px;
-                display: flex;
-                flex-direction: column;
-                gap: 100px;
+
+            .a-new-way-container h1{
+                font-size: 60px;
+                width: 90vw;
+            }
+
+            .paragraph-container{
+                width: 90vw;
+            }
+
+            .paragraph-container p{
+                width: 90vw;
+            }
+
+            .contenido1-title h2{
+                font-size: 40px;
+                margin-bottom: 1;
             }
     
+                /* div de las imagenes:  */
+
+            /* contenedor ppal:  */
+            .three-images-padre{
+                width: 100vw;
+                padding-top: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+            .protection-image1,
+            .protection-image2,
+            .protection-image3{
+                padding: 0 10vw;
+            }
+
+            /* size de las imagenes:  */
+            .protection-image1 img,
+            .protection-image2 img,
+            .protection-image3 img{
+                width: 200px;
+            }
+
+            .protection-image1 p,
+            .protection-image2 p,
+            .protection-image3 p{
+                padding: 0 5px;
+                font-size: 20px;
+            }
+
+            .protection-image1 h2,
+            .protection-image2 h2,
+            .protection-image3 h2{
+                padding: 0 5px;
+                font-size: 40px;
+                margin-top: 0px;
+            }
+    
+            /* START.TAKE A LOOK INSIDE WITH:  */
+
+                /* contenido 2 del degradado:  */
+
+            /* contenido 2 degradado PADRE:      */
+                .contenido2-degradado{
+                    padding: 0px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 150px;
+                }
+
+            /* contenedor ppal de los textos e imagen:  */
+            .take-a-look-padre{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+
+                /* contenedor del texto y boton:  */
+            .take-a-look-container{
+                width: 34%;
+                height: 100%;
+            }
+
+            /* cambiando el color de los textos:  */
+            .take-a-look-container h1,
+            .take-a-look-container p{
+                color: #192440;
+            }
+
+            /* cambiando el tamaño de el titulo:  */
+            .take-a-look-container h1{
+                font-size: 85px;
+                margin-bottom: 5px;
+            }
+            /* cambiando el tamaño de el parrafo:  */
+            .take-a-look-container p{
+                font-size: 15px;
+            }
+
+            /* contenedor de la imagen:  */
+            .portatil-image-container img{
+                width: 450px;
+            }
+
+
+                /* CAMBIANDO COLORES DEL BACKGROUND:  */
+
+                .CONTENIDO-DEGRADADO-PPAL{
+                    background: linear-gradient(-190deg, #ffffff 60%, #00FFAD 50%);
+                    width: 100vw;
+                }
+
+                /* END.TAKE A LOOK INSIDE WITH:  */
+
+    
             /* END.PRICING CONTENT */
+
+            /* contenedor padre de la trilogia pricing:  */
+            .flex-container-trilogy{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-bottom: 110px;
+            }
     
             /* START.IMAGES LOGOS CONTENT:  */
             .LOGO-BRANDS{
@@ -794,10 +927,10 @@ footer{
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
-                gap: 2vw;
+                gap: 4vw;
             }
             .images-container img{
-                width: 120px;
+                width: 60px;
             }
             hr{
                 border: none;
@@ -840,7 +973,7 @@ footer{
             }
     
             .form-form{
-                padding: 6vw 10vw;
+                padding-left: 10vw;
             }
     
             form{
@@ -861,6 +994,35 @@ footer{
             #p-form{
                 margin-bottom: 0px;
             }
+
+            /* contenedor de los dos inputs en row:  */
+        .input-row{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 30px;
+        }
+
+        .row1 input,
+        .row2 input{
+            width: 160px;
+            height: 36px;
+        }
+
+        /* contenedor de el mensaje:  */
+        .message textarea{
+            width: 360px;
+            height: 75px;
+        }
+
+        .button-container button{
+            width: 360px;
+        }
+        .footer-1 p{
+            font-size: 10px;
+        }
+        .footer-2 img{
+            width: 120px;
+        }
 
         }
         /* FIN.MEDIA QUERIES PARA LARGE SMARTPHONE:  */
